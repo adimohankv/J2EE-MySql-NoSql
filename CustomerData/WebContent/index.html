@@ -1,0 +1,48 @@
+<!Doctype>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coustomer Form</title>               
+    </head>
+    <body>
+        <form action="Recieve" method="post">
+            <h2>Please enter your details</h2>
+            <p>ID : <input type="text" name ="id" required="required"></p>
+            <p>Full Name : <input type="text" name ="name" required="required"></p>
+            <p>Gender: MALE<input type="radio" name ="gender" value="MALE">FEMALE<input type="radio" name="gender" value="FEMALE"></p>
+            <p>Age : <input type="text" name ="age" required="required"></p>
+            <p>Address : <input type="text" name = "address" required="required"></p>
+            <p>City <select name="City">
+                    <optgroup label="India">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </optgroup>
+                    <optgroup label="China">
+                        <option value="Beijing">Beijing</option>
+                        <option value="Shanghai">Shanghai</option>
+                    </optgroup>
+                    <optgroup label="UK">
+                        <option value="London">London</option>
+                        <option value="Liverpool">Liverpool</option>
+                    </optgroup>
+                    <optgroup label="USA">
+                        <option value="Boston">Boston</option>
+                        <option value="Chicago">Chicago</option>
+                    </optgroup>
+                    <optgroup label="Australia">
+                        <option value="Melborne">Melborne</option>
+                        <option value="Perth">Perth</option>
+                    </optgroup>
+                    </select></p>
+            <p>Pin: <input type="text" name="pin" required="required"></p>
+            <p>Phone No. : <input type="text" name="phone" ></p>
+            <p>Area of Intrest</p>
+            <input type="checkbox" name ="aoi" value="Playing"><label>Playing</label>
+            <input type="checkbox" name ="aoi" value="Reading"><label>Reading</label>
+            <input type="checkbox" name ="aoi" value="Photography"><label>Photography</label>
+            <input type="checkbox" name ="aoi" value="Painting"><label>Painting</label>
+            <input type="checkbox" name ="aoi" value="Travelling"><label>Travelling</label>
+            <p><input type = "submit" name = Submit></p>
+        </form>
+    </body>
+</html>
