@@ -109,6 +109,7 @@ public class Recieve extends HttpServlet {
 			}
 			out.println(malecount+" "+femalecount+" "+travelcount+" "+readingcount+" "+agecount+" "+phcount);
 		}
+		
 		else{
 			RequestDispatcher rd = request.getRequestDispatcher("error.html");
 			rd.forward(request, response);
