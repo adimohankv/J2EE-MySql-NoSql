@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TestRun
  */
-@WebServlet("/TestRun")
+@WebServlet("/MainClass")
 public class MainClass extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private KeepingCount kp;

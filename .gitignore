@@ -1,3 +1,5 @@
 .metadata/
 .recommenders/
 
+/Customer/nbproject/private/
+/Customer/build/
